@@ -13,7 +13,7 @@ Most AI chat interfaces are stateless and single-threaded. Odyssey is built for 
 - **Agents are first-class citizens** — define agents with specific skills, tools, and permissions, not just system prompts
 - **Projects give context** — agents know what codebase they're working in, what tasks are pending, and what their teammates know
 - **Multi-agent by default** — run several specialized agents in the same conversation, or fan work out to a team
-- **Your machine, your data** — everything runs locally; the only outbound traffic is to the Claude API
+- **Your machine, your data** — everything runs locally; the only outbound traffic is to Claude
 
 ---
 
@@ -41,7 +41,6 @@ Most AI chat interfaces are stateless and single-threaded. Odyssey is built for 
 - Project-scoped task board with full lifecycle: `backlog → ready → in progress → done`
 - Priority levels, labels, and agent assignment
 - Agents can create, update, and query tasks via built-in tools
-- REST API at `localhost:9850/api/v1/tasks`
 
 ### Shared Memory (Blackboard)
 - Persistent key-value store shared across all agents in a project
@@ -71,7 +70,7 @@ Most AI chat interfaces are stateless and single-threaded. Odyssey is built for 
 
 - macOS 14.0 (Sonoma) or later
 - Apple Silicon or Intel Mac
-- [Claude API key](https://console.anthropic.com) (Anthropic account required)
+- [Claude Code](https://claude.ai/code) subscription (Max plan recommended)
 
 ---
 
@@ -79,7 +78,8 @@ Most AI chat interfaces are stateless and single-threaded. Odyssey is built for 
 
 1. Download the latest **Odyssey-x.x.x.dmg** from [Releases](https://github.com/shayke-cohen/Odyssey-releases/releases)
 2. Open the DMG and drag **Odyssey.app** to your Applications folder
-3. Launch Odyssey and enter your Claude API key in Settings
+3. Make sure [Claude Code](https://claude.ai/code) is installed and authenticated (`claude` in your PATH)
+4. Launch Odyssey — it picks up your Claude Code session automatically
 
 > Odyssey is signed with a Developer ID certificate and notarized by Apple — macOS Gatekeeper will clear it automatically.
 
