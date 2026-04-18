@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>Odyssey</title>
     <link>https://github.com/shayke-cohen/Odyssey-releases</link>
     <description>Odyssey release feed</description>
     <language>en</language>
-  </channel>
+  <item><title>Version 0.2.0</title><pubDate>Sat, 18 Apr 2026 12:18:09 +0000</pubDate><sparkle:version>8</sparkle:version><sparkle:shortVersionString>0.2.0</sparkle:shortVersionString><enclosure url="https://github.com/shayke-cohen/Odyssey-releases/releases/download/v0.2.0/Odyssey-0.2.0.dmg" sparkle:edSignature="DBD6/qefkE/+IkBz9JTy/SCgYb+VMKKbrwGEDK5McRqYSi82Fnb08Ef1QpI5KjaF57nKBQFwRTf5Ru9sAlRNBQ==" length="49157677" type="application/octet-stream" /></item></channel>
 </rss>
