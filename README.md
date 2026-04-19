@@ -93,7 +93,7 @@ Odyssey checks for updates automatically via [Sparkle](https://sparkle-project.o
 
 ### Main Interface
 
-![Odyssey main interface](screenshots/main_ui.png)
+![Odyssey main interface](screenshots/main_interface.png)
 
 ### Onboarding
 
