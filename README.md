@@ -91,9 +91,24 @@ Odyssey checks for updates automatically via [Sparkle](https://sparkle-project.o
 
 ## Screenshots
 
-<!-- TODO: Add screenshots -->
+### Main Interface
 
-*Screenshots coming soon.*
+![Odyssey main interface](screenshots/main_ui.png)
+
+### Onboarding
+
+<table>
+<tr>
+<td align="center"><img src="screenshots/onboard_0_welcome.png" width="280"/><br/><b>Welcome</b></td>
+<td align="center"><img src="screenshots/onboard_1.png" width="280"/><br/><b>Meet Your Agents</b></td>
+<td align="center"><img src="screenshots/onboard_2.png" width="280"/><br/><b>Agent Groups</b></td>
+</tr>
+<tr>
+<td align="center"><img src="screenshots/onboard_3.png" width="280"/><br/><b>Skills &amp; Schedules</b></td>
+<td align="center"><img src="screenshots/onboard_4.png" width="280"/><br/><b>You're All Set</b></td>
+<td></td>
+</tr>
+</table>
 
 ---
 
