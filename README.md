@@ -24,12 +24,25 @@ Most AI chat interfaces are stateless and single-threaded. Odyssey is built for 
 - Run multiple agents in parallel sessions with independent contexts
 - Resume sessions across restarts via Claude's session continuity
 - Fork any conversation from any message with full lineage tracking
+- **Parallel instances** — run multiple Odyssey windows with automatic lock-based naming
+
+### Built-in Agent Library
+- Ready-to-use executive team: **CEO, CTO, CMO, CFO, CPO** agents
+- **Lean Startup group** — CEO-led cross-functional team ready out of the box
+- **Ulysses** — your app companion for guidance, config management, and natural-language control ("list agents", "open a chat", "schedule a task")
 
 ### Project-First Shell
-- Top-level **Projects** own threads, tasks, and workspace context
+- Top-level **Projects** own threads, tasks, schedules, and workspace context
 - Attach a GitHub repo to a project — agents clone and work in it automatically
 - Inspector panel with live file tree and git status
 - Export conversations as Markdown, HTML, or PDF
+
+### GitHub Issues Integration
+- **GitHub Inbox** sidebar section — see open issues assigned to your inbox repo in real time
+- Triage with context-menu actions: assign to an agent, run now, close, or resume
+- **Create Issue** from any conversation — route to the right agent or group automatically
+- Agents can open and close issues via the `create_github_issue` tool
+- One-click daemon install for the GitHub poller service
 
 ### Multi-Agent Collaboration
 - Invite multiple agents into the same conversation thread
@@ -42,15 +55,36 @@ Most AI chat interfaces are stateless and single-threaded. Odyssey is built for 
 - Priority levels, labels, and agent assignment
 - Agents can create, update, and query tasks via built-in tools
 
+### Schedules
+- Schedule any agent or group to run on a cron-style interval
+- **Project-aware working directory** — schedules default to their agent's project root
+- **Foldable run history** — recent runs shown inline under each schedule in the sidebar
+- Auto-fill working directory from the assigned agent or group
+
 ### Shared Memory (Blackboard)
 - Persistent key-value store shared across all agents in a project
 - Agents can read/write the blackboard via tools
 - Scoped per project, persisted to disk
 
-### P2P LAN Networking
-- Discover other Odyssey instances on the same network via Bonjour
+### P2P Networking
+- **Nostr P2P DM routing** — connect to other Odyssey instances over the decentralized Nostr network with multi-peer support
+- Discover instances on the same LAN via Bonjour
 - Import agents and skills from peers
 - Foundation for future cross-machine agent collaboration
+
+### Local Models (MLX)
+- Run open-source models locally via MLX on Apple Silicon
+- **Gemma 4 family** — 4B, 26B MoE, and 31B variants
+- Model library with inline Download, Delete, and status controls
+- Right-click context menu on model rows
+
+### Voice Mode
+- **Hold mic to speak** — agents respond aloud via text-to-speech
+- Natural back-and-forth voice conversations with any agent
+
+### Odyssey-Control MCP
+- Structured app-control tools available to any Claude session
+- Let external Claude sessions open chats, list agents, and manage projects
 
 ### Rich Interaction
 - Streaming responses with extended thinking, images, and file cards
@@ -114,6 +148,6 @@ Odyssey checks for updates automatically via [Sparkle](https://sparkle-project.o
 
 ## Feedback & Issues
 
-This is the **public releases** repository. Source code lives in the private [Odyssey](https://github.com/shayke-cohen/Odyssey) repo.
+This is the **public releases** repository. Source code lives in the private [Odyssey](https://github.com/shayco-cohen/Odyssey) repo.
 
 For bug reports or feature requests, please open an issue in this repository.
