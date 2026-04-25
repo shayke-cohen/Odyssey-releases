@@ -50,11 +50,6 @@ Most AI chat interfaces are stateless and single-threaded. Odyssey is built for 
 - Group fan-out: broadcast to a team of agents with budget limits and deduplication
 - Unified **Agent Comms** timeline with filter tabs
 
-### Task Board
-- Project-scoped task board with full lifecycle: `backlog → ready → in progress → done → failed / blocked`
-- Priority levels, labels, and agent assignment
-- Agents can create, update, and query tasks via built-in tools
-
 ### Schedules
 - Schedule any agent or group to run on a cron-style interval
 - **Project-aware working directory** — schedules default to their agent's project root
@@ -77,10 +72,6 @@ Most AI chat interfaces are stateless and single-threaded. Odyssey is built for 
 - **Gemma 4 family** — 4B, 26B MoE, and 31B variants
 - Model library with inline Download, Delete, and status controls
 - Right-click context menu on model rows
-
-### Voice Mode
-- **Hold mic to speak** — agents respond aloud via text-to-speech
-- Natural back-and-forth voice conversations with any agent
 
 ### Odyssey-Control MCP
 - Structured app-control tools available to any Claude session
